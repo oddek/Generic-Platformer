@@ -16,3 +16,6 @@ Segel T - https://opengameart.org/content/2d-hero-guy-character
 Bevouliin - https://opengameart.org/content/red-horn-land-monster
 
 Eris - https://opengameart.org/content/platform-tileset-nature
+
+
+### Kent Odde, July 2019
