@@ -6,14 +6,13 @@ Was just meant for playing around with tiles, but ended up as a "functioning" ga
 
 
 ### Screenshots:
-<img src = "https://github.com/oddek/Generic-Platformer/blob/master/Platformer/img/screenshots/ex2.png" width ="50%">
-<img src = "https://github.com/oddek/Generic-Platformer/blob/master/Platformer/img/screenshots/ex3.png" width ="50%">
-<img src = "https://github.com/oddek/Generic-Platformer/blob/master/Platformer/img/screenshots/ex4.png" width ="50%">
+<img src = "https://github.com/oddek/Generic-Platformer/blob/master/Platformer/img/screenshots/ex2.png" width ="50%"> <img src = "https://github.com/oddek/Generic-Platformer/blob/master/Platformer/img/screenshots/ex3.png" width ="50%"> <img src = "https://github.com/oddek/Generic-Platformer/blob/master/Platformer/img/screenshots/ex4.png" width ="50%">
 
 ### Artwork:
 Code Inferno Games - https://opengameart.org/node/71791
-Segel T - https://opengameart.org/content/2d-hero-guy-character
-Bevouliin - https://opengameart.org/content/red-horn-land-monster
-Eris - https://opengameart.org/content/platform-tileset-nature
 
-Music:
+Segel T - https://opengameart.org/content/2d-hero-guy-character
+
+Bevouliin - https://opengameart.org/content/red-horn-land-monster
+
+Eris - https://opengameart.org/content/platform-tileset-nature
