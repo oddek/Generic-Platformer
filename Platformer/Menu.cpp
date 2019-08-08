@@ -64,7 +64,7 @@ void Menu::do_action(Screen_1& screen)
 	{
 	case 1:
 		screen.show_menu = false;
-		screen.level = 2;
+		screen.level = 0;
 		screen.reset();
 		screen.master_clock = std::chrono::high_resolution_clock::now();
 		break;

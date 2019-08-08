@@ -44,7 +44,10 @@ int Screen_1::Run(sf::RenderWindow& window)
 		while (window.pollEvent(event))
 		{
 			if (event.type == sf::Event::Closed)
+			{
 				window.close();
+				return 0;
+			}
 			if (event.type == sf::Event::KeyPressed)
 			{
 				//draw_header_count = 0;

@@ -1,4 +1,5 @@
 #include <SFML/Graphics.hpp>
+#include <Windows.h>
 #include "Screen_1.h"
 #include "ResourceHolder.h"
 
@@ -27,6 +28,7 @@ Klipper inn i blokker iblant: mulig løsning, flytt x og oppdater current tile fø
 
 int main()
 {
+	ShowWindow(GetConsoleWindow(), SW_HIDE);
 	srand(time(0));
 	ResourceHolder rh;
 	rh.music1.play();
