@@ -16,7 +16,7 @@ public:
 	double x_speed = 0;
 	double y_speed = 0;
 	double y_acc = 0;
-	double g = 60;
+	double g = 120;
 	double x_acc = 0;
 	bool killed = false;
 	virtual void update(Screen_1& screen);

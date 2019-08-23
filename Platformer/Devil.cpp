@@ -5,7 +5,7 @@
 Devil::Devil(ResourceHolder* _rh, sf::Vector2f pos): Enemy(_rh, pos)
 {
 	current_sprite.setTexture(rh->enemy1_idle[0]);
-	x_speed = 2;
+	x_speed = 3;
 	hitbox = Hitbox(current_sprite.getGlobalBounds().width, current_sprite.getGlobalBounds().height, 5, 5);
 
 	hitbox.update_position(current_sprite.getGlobalBounds(), is_flipped);

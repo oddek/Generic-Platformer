@@ -34,6 +34,9 @@ int main()
 	rh.music1.play();
 	rh.music1.setLoop(true);
 	sf::RenderWindow window(sf::VideoMode(rh.s_width, rh.s_height), "Platformer");
+	//Har lyst til å strupe framerate litt, men da, store deler av fysikken endres. 
+	//Vet ikke hvor stor jobb dette blir.
+	window.setFramerateLimit(60);
 	window.setKeyRepeatEnabled(false);
 	std::vector<cScreen*> Screens;
 	int screen = 0;

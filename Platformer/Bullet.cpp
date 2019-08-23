@@ -11,12 +11,12 @@ Bullet::Bullet(sf::FloatRect player_rect, bool left_dir, bool up, bool down)
 
 	if (left_dir)
 	{
-		speed.x = 15;
+		speed.x = 20;
 		setPosition(player_rect.left + 98, player_rect.top + 50);
 	}
 	else
 	{
-		speed.x = -15;
+		speed.x = -20;
 		setPosition(player_rect.left, player_rect.top + 50);
 	}
 

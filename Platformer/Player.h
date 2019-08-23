@@ -20,7 +20,7 @@ public:
 	double x_speed = 0;
 	double y_speed = 0;
 	double y_acc = 0;
-	double g = 60;
+	double g = 120;
 	double x_acc = 0;
 	bool gun = true;
 	bool shooting = false;
@@ -45,7 +45,7 @@ private:
 	void move_y(Screen_1& screen);
 	bool jump = false;
 	bool run = false;
-	int anim_delay = 4;
+	int anim_delay = 2;
 	int current_tile_x_left;
 	int current_tile_x_right;
 	int current_tile_y_top;

@@ -100,7 +100,7 @@ int Screen_1::Run(sf::RenderWindow& window)
 					if (player.y_speed == 0)
 					{
 						rh->s_jump.play();
-						player.y_speed = -25;
+						player.y_speed = -35;
 					}	
 					break;
 				case sf::Keyboard::P:
@@ -180,11 +180,11 @@ int Screen_1::Run(sf::RenderWindow& window)
 		}
 		if (move_left)
 		{
-			player.x_speed = -10;
+			player.x_speed = -15;
 		}
 		else if (move_right)
 		{
-			player.x_speed = 10;
+			player.x_speed = 15;
 		}
 		else player.x_speed = 0;
 
@@ -383,7 +383,7 @@ void Screen_1::check_bullet_hit_enemy()
 			if (b->getGlobalBounds().intersects((*e)->hitbox.getGlobalBounds()) && !(*e)->killed)
 			{
 				rh->s_monster_death.play();
-				(*e)->y_speed = - 10;
+				(*e)->y_speed = - 15;
 				if ((b->speed.x < 0 && (*e)->x_speed > 0) || b->speed.x > 0 && (*e)->x_speed < 0) (*e)->x_speed *= -1;
 				(*e)->killed = true;
 

@@ -12,7 +12,7 @@ Hvis krasj i y retning, sett y_speed  = 0, den vil øke eller synke neste iterasj
 Bird::Bird(ResourceHolder* _rh, sf::Vector2f pos, sf::Vector2i _init_pos): Enemy(_rh, pos), init_pos(_init_pos)
 {
 	current_sprite.setTexture(rh->enemy2[0]);
-	x_speed = 2;
+	x_speed = 3;
 	y_speed = 0.5;
 	hitbox = Hitbox(current_sprite.getGlobalBounds().width, current_sprite.getGlobalBounds().height, 14, 5, 11, 9);
 
